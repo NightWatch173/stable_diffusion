@@ -1,11 +1,9 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
 	"remoteUser": "codespace",
-	"postCreateCommand": "pip install ipykernel --user",
+	"postCreateCommand": "python3 -m pip install -r requirements.txt",
 	"hostRequirements": {
-		"cpus": 6,
-		"memory": "112gb",
-		"storage": "128gb" 
+		"gpus": 1
 	},
 	"customizations": {
 		"vscode": {
