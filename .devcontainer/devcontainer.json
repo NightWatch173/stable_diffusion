@@ -1,7 +1,6 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:latest",
 	"remoteUser": "codespace",
-	"postCreateCommand": "python3 -m pip install -r requirements.txt",
 	"hostRequirements": {
 		"gpus": 1
 	},
